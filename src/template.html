@@ -4,12 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Weather App</title>
+    <script src="index.js" defer></script>
 </head>
 <body>
-
-    <header>
-    </header>
-    </div>
-    
+    <div>
+        <h1>Let's check the weather</h1>
+        <form id="searchForm">
+            <div class="searchLocation">
+                <label for="searchTerm">Enter a new location:</label>
+                <input type="text" id="searchTerm" name="search-Term" />
+            </div>
+            <button type="submit" id="searchVisualCrossing" value="Submit">Get weather data</button>
+        </form>
+        <div id="weather-report"></div>
+    </div>    
 </body>
 </html>
